@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rural Development Protocol</title>
+<link rel="stylesheet" href="style.css">
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("https://t4.ftcdn.net/jpg/03/84/36/33/360_F_384363399_bownxk2gIFVHAgJvkVHMEzVTbDPqXxey.jpg");
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+
+}
+.navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+}
+
+.icon img{
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  padding-top: 20px;
+  border-radius: 22px;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:green;
+    font-size: 35px;
+    font-family: Arial;
+    padding: 20px;
+    float: left;
+    padding-top: 25px;
+}
+
+.menu{
+    width: 450px;
+    height: 80px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: green;
+}
+
+.content{
+    width:1200px;
+    height:auto;
+    margin: auto;
+    color:white;
+    position:relative;
+}
+.content .par{
+    padding-left: 650px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family:'Times New Roman';
+    font-size: 50px;
+    padding-left: 650px;
+    margin-top: 9%;
+    letter-spacing: 2px ;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-left:54%;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    position: relative;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+
+.cn::before{
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: green;
+  height: 50%;
+  width: 100%;
+  transform: perspective(lem)
+  rotateX(40deg) scale(1, 0.35);
+  filter: blur(8px);
+  transition: 1s ease;
+}
+
+.cn:hover::before{
+  background: white;
+  top: 70px;
+}
+.cn:hover{
+    background: white;
+    background-color: white;
+    color: black;
+    transition: 1s ease;
+
+}
+
+
+.cn:hover{
+    background: green;
+
+}
+
+.form{
+    width: 250px;
+    height: 500px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+     position: absolute;
+    top: 10px;
+    left: 30px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: green;
+    font-size: 22px;
+    background-color: white ;
+    border-radius: 10px;
+    margin: 2px;
+    padding:8px;
+}
+
+.form input{
+    width: 240px;
+    height:35px;
+    background: transparent;
+    border-bottom: 1px solid green;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color:white;
+    font-family: Arial;
+}
+
+
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.btnn{
+  width: 240px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: green;
+  cursor: pointer;
+  position: relative;
+  transition: 0.4s ease;
+}
+
+
+.btnn::before{
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: transparent;
+  height: 50%;
+  width: 100%;
+  transform: perspective(lem)
+  rotateX(40deg) scale(1, 0.35);
+  filter: blur(8px);
+  transition: 1s ease;
+}
+
+.btnn:hover::before{
+  background: green;
+  top: 70px;
+}
+.btnn:hover{
+    background: white;
+    background-color: white;
+    color: black;
+    transition: 1s ease;
+
+}
+
+
+</style>
+<link rel="icon" href="favicon4.ico">
+</head>
+<body>
+    <div class ="main">
+        <div class="navbar">
+            <div class="icon">
+                <img src="https://www.siumed.edu/sites/default/files/styles/landscape_1120/public/2021-09/RHS%20Logo%20No%20Date_Transparent.png?h=d91975f9&itok=rhODH-D9">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">REPRESENTATORS</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="content">
+                <h1><br><span>Rural Development Protocol</span><br>Welcome!</h1>
+                <p class="par">A digital interface between the people and the Medical government for Rural Areas.
+                </p><br>
+                <button class="cn"><a href="#">JOIN US!!!</a></button>
+                <div class="form">
+                    <h2>Sign Up</h2>
+                    <form method='POST' action="validationrdp.php">
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+
+                    <input type="text" name="Pn" placeholder="Enter your Phone No" required>
+
+                    <input type="text" name="District" placeholder="Enter your District Name" required>
+
+                    <input type="text" name="Manadalam" placeholder="Enter your Mandalam Name" required>
+
+                    <input type="text" name="Village" placeholder="Enter your Village Name" required>
+
+                    <input type="text" name="gmail" placeholder="Enter your Gmail" required><br>
+
+
+                    <button class="btnn"><a href="#">SUBMIT</a></button>
+                  </form>
+                </div>
+
+        </div>
+      </div>
+</body>
+</html>
